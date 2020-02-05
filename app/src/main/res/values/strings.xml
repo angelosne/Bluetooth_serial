@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Bluetooth_serial</string>
+    <string name="textView_apn">APN</string>
+    <string name="textView_server">Server</string>
+    <string name="textView_port">Port</string>
+    <string name="button_server_write">W</string>
+    <string name="button_server_read">R</string>
+    <string name="button_apn_write">W</string>
+    <string name="button_apn_read">R</string>
+    <string name="button_port_write">W</string>
+    <string name="button_port_read">R</string>
+    <string name="button_provider">Provider</string>
+    <string name="button_init">Init</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="editText_server">1.diameson.net</string>
+    <string name="editText_port">1023</string>
 </resources>

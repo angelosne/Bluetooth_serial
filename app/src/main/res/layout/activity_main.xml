@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="APN"
+        android:text="@string/textView_apn"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText_apn"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Server"
+        android:text="@string/textView_server"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText_server"
         app:layout_constraintStart_toStartOf="parent" />
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Port"
+        android:text="@string/textView_port"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText_port"
         app:layout_constraintStart_toStartOf="parent" />
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="W"
+        android:text="@string/button_server_write"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/button_server_read" />
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="R"
+        android:text="@string/button_server_read"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/editText_server" />
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="W"
+        android:text="@string/button_apn_write"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/editText_apn" />
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="R"
+        android:text="@string/button_apn_read"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/editText_apn" />
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="W"
+        android:text="@string/button_port_write"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/button_port_read" />
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="R"
+        android:text="@string/button_port_read"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/editText_port" />
@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Provider"
+        android:text="@string/button_provider"
         app:layout_constraintStart_toEndOf="@+id/textView_server"
         app:layout_constraintTop_toBottomOf="@+id/editText_port" />
 
@@ -117,7 +117,7 @@
         android:id="@+id/button_init"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Init"
+        android:text="@string/button_init"
         app:layout_constraintEnd_toEndOf="@+id/button_disconnect"
         app:layout_constraintStart_toStartOf="@+id/button_disconnect"
         app:layout_constraintTop_toTopOf="@+id/button_provider" />
@@ -127,7 +127,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Connect"
+        android:text="@string/button_connect"
         app:layout_constraintEnd_toEndOf="@+id/button_provider"
         app:layout_constraintStart_toStartOf="@+id/button_provider"
         app:layout_constraintTop_toBottomOf="@+id/button_provider" />
@@ -137,7 +137,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Disconnect"
+        android:text="@string/button_disconnect"
         app:layout_constraintStart_toEndOf="@+id/button_connect"
         app:layout_constraintTop_toTopOf="@+id/button_connect" />
 
@@ -165,7 +165,7 @@
         android:layout_marginEnd="8dp"
         android:ems="7"
         android:inputType="textPersonName"
-        android:text="1.diameson.net"
+        android:text="@string/editText_server"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toEndOf="@+id/textView_server"
         app:layout_constraintTop_toBottomOf="@+id/editText_apn" />
@@ -179,7 +179,7 @@
         android:layout_marginEnd="8dp"
         android:ems="7"
         android:inputType="number"
-        android:text="1023"
+        android:text="@string/editText_port"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toEndOf="@+id/textView_server"
         app:layout_constraintTop_toBottomOf="@+id/editText_server" />
